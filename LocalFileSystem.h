@@ -5,7 +5,10 @@
 #include <stdlib.h>
 #include "Message.h"
 #include "IPersistentStorage.h"
-
+/*
+Test
+Test
+*/
 class LocalFileSystem: public IPersistentStorage {
 public:
 	void storeMessage(Message msg, uint64_t msgKey);
